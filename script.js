@@ -1,6 +1,6 @@
-let hour = document.getElementById('horas');
-let minutes = document.getElementById('minutos');
-let seconds = document.getElementById('segundos');
+let hour = document.getElementById('hour');
+let minutes = document.getElementById('minutes');
+let seconds = document.getElementById('seconds');
 
 const watch = setInterval(function time() {
     let dateToday = new Date();
